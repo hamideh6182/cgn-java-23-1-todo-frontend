@@ -1,0 +1,7 @@
+.todo-card{
+    width: 50%;
+    border: 1px solid lightcoral;
+    align-self: center;
+    margin: 1%;
+    border-radius: 1000000px;
+}

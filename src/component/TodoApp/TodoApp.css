@@ -1,0 +1,13 @@
+.todo-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.todo-gallery-status{
+    width: 33%;
+    background-color: #282c34;
+    color: white;
+    border-radius: 50px;
+    margin: 1%;
+}
