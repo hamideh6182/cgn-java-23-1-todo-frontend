@@ -19,7 +19,7 @@ export default function TodoApp() {
                 setTodos(response.data);
             })
             .catch((error) => {
-                console.error(error);
+                console.error("Something went wrong :(" + error);
             });
     }
 
@@ -27,7 +27,6 @@ export default function TodoApp() {
         axios.post("/api/todo", todoToAdd)
             .then(() => {
                 fetchTodos();
-                console.log("ToDo added successfully!");
             })
             .catch((error) => {
                 console.error("Something went wrong :(" + error)
