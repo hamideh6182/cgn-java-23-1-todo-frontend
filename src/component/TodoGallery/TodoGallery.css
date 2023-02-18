@@ -1,5 +1,14 @@
-.todo-gallery{
+.todo-gallery {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.todo-gallery-status {
+    width: 30%;
+    background-color: #282c34;
+    padding: 1%;
+    border-radius: 5vh;
+    color: antiquewhite;
 }
